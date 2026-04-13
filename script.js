@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('.link-input');
     
     // !!! QUAN TRỌNG: Thay bằng link Render thật của bạn !!!
-    const API_URL = 'https://GBVN.OKCHUA.com/bypass';
+const API_URL = 'https://tool-vuot-link.onrender.com/bypass';
 
     btn.addEventListener('click', async () => {
         const url = input.value.trim();
