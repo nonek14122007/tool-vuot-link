@@ -3,62 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Công cụ chặn quảng cáo</title>
+    <title>Tool Vượt Link - Gia Bảo</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="dark-theme">
-    <header class="main-header">
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo-group">
-                    <img src="img/logo-cho.jpg" alt="Logo" class="site-logo">
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#" class="active">Trang chủ</a></li>
-                    <li><a href="#">Các trang web hỗ trợ</a></li>
-                    <li><a href="#">API</a></li>
-                    <li><a href="#" class="discord-link">🤖 Discord</a></li>
-                </ul>
-            </nav>
+<body>
+    <div class="container">
+        <h1>CÔNG CỤ VƯỢT LINK SỐ 1</h1>
+        <div class="input-group">
+            <input type="text" id="link-input" placeholder="Dán link funlink.io hoặc link4m vào đây...">
+            <button onclick="bypassLink()" class="btn">
+                <span class="btn-text">Đường vòng</span>
+            </button>
         </div>
-    </header>
+        <div id="result"></div>
+    </div>
 
-    <main class="main-content">
-        <div class="container">
-            <section class="hero-section">
-                <h1 class="main-title">
-                    CÔNG CỤ CHẶN LIÊN KẾT QUẢNG CÁO SỐ 1!
-                    <div class="title-underline"></div>
-                </h1>
-                <div class="input-group">
-                    <input type="text" placeholder="Nhập liên kết của bạn vào đây" class="link-input">
-                </div>
-                <button class="btn-bypass">Đường vòng</button>
-            </section>
-
-            <section class="features-section">
-                <div class="feature-card fast-reliable">
-                    <div class="card-icon">🚀</div>
-                    <h3>Nhanh chóng</h3>
-                    <p>Vượt qua liên kết ngay lập tức!</p>
-                    <div class="card-gradient-border"></div>
-                </div>
-                <div class="feature-card totally-free">
-                    <div class="card-icon">💯</div>
-                    <h3>Miễn phí</h3>
-                    <p>Không phí ẩn, không đăng ký.</p>
-                    <div class="card-gradient-border"></div>
-                </div>
-                <div class="feature-card multi-site">
-                    <div class="card-icon">🌐</div>
-                    <h3>Đa nền tảng</h3>
-                    <p>Hỗ trợ nhiều loại trang web khác nhau.</p>
-                    <div class="card-gradient-border"></div>
-                </div>
-            </section>
-        </div>
-    </main>
     <script src="script.js"></script>
 </body>
 </html>
